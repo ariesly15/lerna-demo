@@ -1,5 +1,5 @@
 {
-  "name": "pkg-utils",
+  "name": "lerna-test-pkg-utils",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "ariesly <ileeyi@qq.com>",
@@ -20,6 +20,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "dayjs": "^1.11.1"
+    "dayjs": "^1.11.1",
+    "lerna-test-pkg-const": "^1.0.0"
   }
 }
