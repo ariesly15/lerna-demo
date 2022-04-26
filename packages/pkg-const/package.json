@@ -1,0 +1,25 @@
+{
+  "name": "lerna-test-pkg-const",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "ariesly <ileeyi@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/pkg-const.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.1"
+  }
+}
